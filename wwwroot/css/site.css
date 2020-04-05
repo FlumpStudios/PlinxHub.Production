@@ -60,8 +60,7 @@ html {
 
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
-    visibility: hidden;
+    margin-bottom: 60px;   
 }
 .footer {
   position: absolute;
@@ -241,3 +240,18 @@ color: red;
     font-weight: bold;
 }
 
+.main-content{
+    visibility:hidden;
+}
+
+#page-loader {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    margin: auto;    
+}
+
+.loading-text {
+    font-size:large;
+    color: white;
+}
