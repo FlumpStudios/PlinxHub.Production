@@ -247,11 +247,27 @@ color: red;
 #page-loader {
     position: fixed !important;
     top: 50% !important;
-    left: 50% !important;
+    left: 49% !important;
     margin: auto;    
 }
 
 .loading-text {
     font-size:large;
     color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer-content {
+        display: none;
+    }
+    .page-footer {
+        width:auto !important;
+    }
+
+    #page-loader {
+        position: fixed !important;
+        top: 50% !important;
+        left: 42% !important;
+        margin: auto;
+    }
 }
